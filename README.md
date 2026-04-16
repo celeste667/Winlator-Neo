@@ -4,7 +4,7 @@
 
 # Winlator
 
-Winlator Fork - Just some tweaks
+Winlator Neo Fork - Just some tweaks
 Yo dudes! I’ve put together this fork with just a couple of specific changes I needed. It's nothing crazy, just some minor stuff to make my life easier
 
 Custom UI: I’ve changed the theme to give the app a different look. Just wanted something that looked a bit more like my style.
