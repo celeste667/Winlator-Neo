@@ -1,0 +1,15 @@
+Executable : /home/codespace/android-sdk/cmake/3.22.1/bin/ninja
+arguments : 
+-C
+/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a
+file_redirect_hook
+gladiorenderer
+gsl_alloc_hook
+hook_impl
+main_hook
+midihandler
+virglrenderer
+vortekrenderer
+winlator
+jvmArgs : 
+

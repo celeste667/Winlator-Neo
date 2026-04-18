@@ -1,0 +1,10 @@
+            try {
+                JSONObject jsonObject = new JSONObject(content);
+                if (type == Type.TURNIP) {
+                    updateDownloadableItemList(jsonObject, "turnip", defaultItem);
+                }
+            } catch (JSONException e) {}
+        }
+    }
+
+    private static void showDownloadableListDialog(Type type, final Spinner spinner, final String defaultItem) {

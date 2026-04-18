@@ -1,0 +1,183 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libmain_hook.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_options",
+			"target_link_libraries",
+			"target_compile_options"
+		],
+		"files" : 
+		[
+			"libadrenotools/src/hook/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -g  -fno-limit-debug-info -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "main_hook_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/libadrenotools/lib/linkernsbypass/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/codespace/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "linkernsbypass::@5407b3deb09cd7052cda"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "hook_impl::@78f430b088191d943664"
+		}
+	],
+	"id" : "main_hook::@78f430b088191d943664",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-z",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "global",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libhook_impl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "libadrenotools/lib/linkernsbypass/liblinkernsbypass.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-static-libstdc++ -latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/codespace/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "main_hook",
+	"nameOnDisk" : "libmain_hook.so",
+	"paths" : 
+	{
+		"build" : "libadrenotools/src/hook",
+		"source" : "libadrenotools/src/hook"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libadrenotools/src/hook/main_hook.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

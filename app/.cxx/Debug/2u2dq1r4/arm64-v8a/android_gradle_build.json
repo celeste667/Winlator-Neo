@@ -1,0 +1,148 @@
+{
+  "buildFiles": [
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/gladiorenderer/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/libadrenotools/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/libadrenotools/lib/linkernsbypass/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/libadrenotools/src/hook/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/midihandler/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/virglrenderer/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/vortekrenderer/CMakeLists.txt",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp/winlator/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/codespace/android-sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "adrenotools::@610204f4c562aadf23cb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "adrenotools",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a/libadrenotools/libadrenotools.a"
+    },
+    "file_redirect_hook::@78f430b088191d943664": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "file_redirect_hook",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libfile_redirect_hook.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libhook_impl.so"
+      ]
+    },
+    "gladiorenderer::@68bae0731d827b04443f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "gladiorenderer",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libgladiorenderer.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libwinlator.so"
+      ]
+    },
+    "gsl_alloc_hook::@78f430b088191d943664": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "gsl_alloc_hook",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libgsl_alloc_hook.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libhook_impl.so"
+      ]
+    },
+    "hook_impl::@78f430b088191d943664": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "hook_impl",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libhook_impl.so",
+      "runtimeFiles": []
+    },
+    "linkernsbypass::@5407b3deb09cd7052cda": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "linkernsbypass",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a/libadrenotools/lib/linkernsbypass/liblinkernsbypass.a"
+    },
+    "main_hook::@78f430b088191d943664": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "main_hook",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libmain_hook.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libhook_impl.so"
+      ]
+    },
+    "midihandler::@c28c5e188eb6c5cbe448": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "midihandler",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libmidihandler.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libFLAC.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libfluidsynth-assetloader.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libgio-2.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libglib-2.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libgmodule-2.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libgobject-2.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libgthread-2.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libinstpatch-1.0.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/liboboe.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libogg.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libopus.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libpcre.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libpcreposix.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libsndfile.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libvorbis.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libvorbisenc.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libvorbisfile.so",
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/jniLibs/arm64-v8a/libfluidsynth.so",
+        "/home/codespace/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/14.0.1/lib/linux/aarch64/libomp.so"
+      ]
+    },
+    "virglrenderer::@b02222b02b17b4412ae0": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "virglrenderer",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libvirglrenderer.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libwinlator.so"
+      ]
+    },
+    "vortekrenderer::@5c43feac295472031f72": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vortekrenderer",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libvortekrenderer.so",
+      "runtimeFiles": [
+        "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libwinlator.so"
+      ]
+    },
+    "winlator::@24ed85a0dee10927067c": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "winlator",
+      "output": "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/build/intermediates/cxx/Debug/2u2dq1r4/obj/arm64-v8a/libwinlator.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/codespace/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/codespace/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

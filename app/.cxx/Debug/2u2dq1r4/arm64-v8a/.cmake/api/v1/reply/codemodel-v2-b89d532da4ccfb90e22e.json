@@ -1,0 +1,361 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "winlator",
+					"jsonFile" : "directory-winlator-Debug-8b7a6f440b9687f7f545.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "winlator",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "vortekrenderer",
+					"jsonFile" : "directory-vortekrenderer-Debug-8ebab6c57efcc8fa1b47.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "vortekrenderer",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "virglrenderer",
+					"jsonFile" : "directory-virglrenderer-Debug-b307ea07d60f6ba15999.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "virglrenderer",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "midihandler",
+					"jsonFile" : "directory-midihandler-Debug-8fab07026672fbc512a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "midihandler",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "libadrenotools",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"jsonFile" : "directory-libadrenotools-Debug-6d61992ca7c47c4a454e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "libadrenotools",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libadrenotools/lib/linkernsbypass",
+					"jsonFile" : "directory-libadrenotools.lib.linkernsbypass-Debug-25f22b7750fa509c9cd4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "libadrenotools/lib/linkernsbypass",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "libadrenotools/src/hook",
+					"jsonFile" : "directory-libadrenotools.src.hook-Debug-5fa0941b4fa25f590b7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "libadrenotools/src/hook",
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"build" : "gladiorenderer",
+					"jsonFile" : "directory-gladiorenderer-Debug-5b32f667ab92d7e67e33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "gladiorenderer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Winlator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "VortekRenderer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "VirGLRenderer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "MIDIHandler",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						7
+					],
+					"name" : "adrenotools",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "linkernsbypass",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "GladioRenderer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "adrenotools::@610204f4c562aadf23cb",
+					"jsonFile" : "target-adrenotools-Debug-02f8c48c946f4b34b326.json",
+					"name" : "adrenotools",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "file_redirect_hook::@78f430b088191d943664",
+					"jsonFile" : "target-file_redirect_hook-Debug-1c38a6b771ae158d50f0.json",
+					"name" : "file_redirect_hook",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gladiorenderer::@68bae0731d827b04443f",
+					"jsonFile" : "target-gladiorenderer-Debug-00b5168545020806c223.json",
+					"name" : "gladiorenderer",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gsl_alloc_hook::@78f430b088191d943664",
+					"jsonFile" : "target-gsl_alloc_hook-Debug-4d082482451030240dd6.json",
+					"name" : "gsl_alloc_hook",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "hook_impl::@78f430b088191d943664",
+					"jsonFile" : "target-hook_impl-Debug-4fa83d95ad5efd33ccb8.json",
+					"name" : "hook_impl",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "linkernsbypass::@5407b3deb09cd7052cda",
+					"jsonFile" : "target-linkernsbypass-Debug-c8ef20f4e43aae41792b.json",
+					"name" : "linkernsbypass",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "main_hook::@78f430b088191d943664",
+					"jsonFile" : "target-main_hook-Debug-f99faffe02f2794ec7b8.json",
+					"name" : "main_hook",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "midihandler::@c28c5e188eb6c5cbe448",
+					"jsonFile" : "target-midihandler-Debug-616fa268dbe8ff4d9fe8.json",
+					"name" : "midihandler",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "virglrenderer::@b02222b02b17b4412ae0",
+					"jsonFile" : "target-virglrenderer-Debug-7b6c793bed10f8c5ccf6.json",
+					"name" : "virglrenderer",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vortekrenderer::@5c43feac295472031f72",
+					"jsonFile" : "target-vortekrenderer-Debug-e1e9884d4c72be98e873.json",
+					"name" : "vortekrenderer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "winlator::@24ed85a0dee10927067c",
+					"jsonFile" : "target-winlator-Debug-7c7e8e30d3938cc4b225.json",
+					"name" : "winlator",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/.cxx/Debug/2u2dq1r4/arm64-v8a",
+		"source" : "/workspaces/Winlator-Red/winlator_PRONTO_PRO_CLAUDE/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
